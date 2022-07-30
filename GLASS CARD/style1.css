@@ -1,0 +1,654 @@
+*{box-sizing: border-box;margin: 0;padding: 0;}
+body
+{
+	background: black;
+	height: 100vh;
+}
+.main
+{
+  height: 700px;
+  width: 1000px;
+  border: 4px solid white;
+  margin: 100px auto;
+  position: relative;
+  overflow: hidden;
+
+}
+.main .circle1
+{
+	height: 200px;
+	width: 300px;
+	background: rgb(72,209,204);
+
+	filter: blur( 70px);
+	
+
+}
+
+.main .circle2
+{   
+	position: absolute;
+	height: 300px;
+	width: 1000px;
+	background: rgb(255,182,193);
+	
+	margin-left: 20%;
+	margin-top: -20%;
+	filter: blur(50px);
+
+
+}
+
+.main .circle3
+{   
+	position: absolute;
+	height: 500px;
+	width: 1000px;
+	background: rgb(255,228,225);
+	filter: blur(90px);
+	
+
+
+}
+.main .squre
+{
+	height: 550px;
+	width: 900px;
+	background:gray;
+	margin: -130px auto;
+	border-radius: 20px;
+	display: flex;
+
+}
+.main .squre .part1
+{
+	height: 550px;
+	width: 200px;
+	
+	background: white;
+	position: relative;
+}
+.main .squre .part1 p
+{
+	color:#7FFFD4;
+	font-weight: bold;
+	margin-left: 20px;
+	margin-top: 15px;
+	font-size: 20px;
+}
+ .squre .part1 .name
+{
+	height: 50px;
+	width: 120px;
+	background: rgb(245,245,245);
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-left: 20px;
+	padding-top: 10px;
+	padding-left: 40px;
+}
+.main .squre .part1 .dashboard
+{
+	height: 30px;
+	width: 120px;
+	background: linear-gradient(red,blue);
+	border-radius: 10px;
+	margin-left: 20px;
+	margin-top: 25px;
+	padding: 5px 0 0 40px;
+	color: white;
+}
+.main .squre .part1 .dashboard i
+{
+  position: absolute;
+  margin-left: -35px;
+
+}
+.main .lesson
+{
+	
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.main .lesson i
+{
+  padding: 10px;
+}
+
+.main .state
+{
+	
+	margin-left: 10px;
+	margin-top: 2%;
+}
+.main .state i
+{
+  padding: 10px;
+}
+.main .fav
+{
+	margin-left: 5px;
+}
+.main .fav i
+{
+	padding: 15px;
+}
+.main .wallet
+{
+	margin-left: 10px;
+}
+.main .wallet i
+{
+	padding: 10px;
+}
+.main .smallbox
+{
+	height: 160px;
+	width: 120px;
+	background: linear-gradient(lightpink 50%,blueviolet);
+	margin-left: 30px;
+	margin-top: 30px;
+	border-radius: 20px;
+	position: relative;
+}
+.main .smallbox b
+{
+	font-size: 12px;
+	position: absolute;
+	top: 40%;
+	left: 10%;
+}
+.main .smallbox .a
+{
+	font-size: 12px;
+	margin-top: 85px;
+	margin-left: 12px;
+	position: absolute;
+	color: darkgray;
+}
+.main .smallbox .b
+{
+	position: absolute;
+	top: 65%;
+	left: 12%;
+	color: darkgray;
+}
+.main .smallbox .c
+{
+	height: 30px;
+	width: 90px;
+	background: saddlebrown;
+	border-radius: 10px;
+	padding: 5px 0 0 15px;
+	color: white;
+	position: absolute;
+	top: 80%;
+	left: 12%;
+}
+.squre .part2
+{
+	height: 550px;
+	width: 400px;
+	background: rgba(255,239,213,0.3);
+	position: relative;
+}
+.squre .part2 h1
+{
+	margin-top: 30px;
+	margin-left: 20px;
+	font-size: 25px;
+}
+.squre .part2 p
+{
+	margin-left: 20px;
+	color: darkgray;
+}
+.squre .part2 .search
+{
+	height: 35px;
+	width: 150px;
+	background: rgba(255,250,205,0.1);
+	border-radius: 10px;
+	margin-left: 55%;
+	margin-top: -40px;
+	padding-left: 10px;
+	padding-top: 5px;
+	color: darkgray;
+}
+.search i
+{
+	position: absolute;
+	padding-left: 70px;
+	color: darkgray;
+}
+.squre .part2 .malti
+{
+	height: 35px;
+	width: 100px;
+	background: rgba(255,250,205,0.1);
+	margin-top: 40px;
+	margin-left: 20px;
+	border-radius: 10px;
+	padding-left: 40px;
+	font-size: 12px;
+	padding-top: 10px;
+	color: gray;
+
+}
+.squre .part2 .graphic
+{
+	height: 35px;
+	width: 120px;
+	background: rgba(255,250,205,0.1);
+	margin-top: -35px;
+	margin-left: 140px;
+	border-radius: 10px;
+	padding-left: 40px;
+	font-size: 12px;
+	padding-top: 10px;
+	color: gray;
+
+}
+.squre .part2 .content
+{
+	height: 35px;
+	width: 120px;
+	background: rgba(255,250,205,0.1);
+	margin-top: -35px;
+	margin-left: 270px;
+	border-radius: 10px;
+	padding-left: 40px;
+	font-size: 12px;
+	padding-top: 10px;
+	color: gray;
+
+}
+.squre .part2 .camera
+{
+	height: 80px;
+	width: 350px;
+	background:rgba(255, 255, 255, 1.0);
+	border-radius: 10px;
+	margin-left: 25px;
+	margin-top: 20px;
+	position: relative;
+}
+.squre .part2 .camera .c
+{
+	height: 50px;
+	width: 50px;
+background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR12EsvCpi7w29JTkyKyvrmtRtaQVZAWQhRYQ&usqp=CAU);
+background-size: cover;
+box-sizing: 100% 100%;
+  margin-left: 20px;
+	position: absolute;
+	margin-top: 15px;
+	border-radius: 10px;
+}
+.squre .part2 .camera p
+{
+	margin-left: 80px;
+ margin-top: 20px;
+	position: absolute;
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+}
+.squre .part2 .camera .line
+{
+	height: 8px;
+	width: 170px;
+	background: deeppink;
+  position: absolute;
+  margin-top: 65px;
+  margin-left: 80px;
+  border-radius: 5px;
+}
+.squre .part2 .camera .line0
+{
+	height: 8px;
+	width: 80px;
+	background: rgba(230,230,250,1);
+  position: absolute;
+  margin-top: 65px;
+  margin-left: 71%;
+  border-radius: 5px;
+}
+.squre .part2 .data
+{
+	height: 80px;
+	width: 350px;
+	background: rgba(255, 255, 255, 1);
+	border-radius: 10px;
+	margin-top: 50px;
+	margin-left: 25px;
+}
+.squre .part2 .data .d
+{
+	height: 50px;
+	width: 50px;
+	background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQKbPiwSom8_mOSJwbYxuKxq21J8olBi2GTw&usqp=CAU);
+	box-sizing: 100% 100%;
+	background-size: cover;
+	margin-left: 20px;
+	margin-top: 15px;
+	position: absolute;
+	border-radius: 10px;
+	padding: 20px;
+}
+.squre .part2 .data p
+{
+	margin-left: 80px;
+ margin-top: 20px;
+	position: absolute;
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+}
+.squre .part2 .data .line1
+{
+	height: 8px;
+	width: 130px;
+	background:deeppink;
+  position: absolute;
+  margin-top: 65px;
+  margin-left: 80px;
+  border-radius: 5px;
+}
+.squre .part2 .data .line2
+{
+	height: 8px;
+	width: 120px;
+	background: rgba(230,230,250,1);
+  position: absolute;
+  margin-top: 65px;
+  margin-left: 53%;
+  border-radius: 5px;
+}
+
+.squre .part2 .social
+{
+	height: 80px;
+	width: 350px;
+	background: rgba(255, 255, 255, 1);
+	border-radius: 10px;
+	margin-top: 50px;
+	margin-left: 25px;
+}
+
+.squre .part2 .social .s
+{
+	height: 50px;
+	width: 50px;
+	background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtW5lTwWG-1uJ3PPqq_vSsY_azrJS_YicQfQ&usqp=CAU);
+
+	box-sizing: 100% 100%;
+	background-size: cover;
+	margin-left: 20px;
+	margin-top: 15px;
+	position: absolute;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+.squre .part2 .social p
+{
+	margin-left: 80px;
+ margin-top: 20px;
+	position: absolute;
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.squre .part2 .social .line3
+{
+	height: 8px;
+	width: 100px;
+	background:deeppink;
+  position: absolute;
+  margin-top: 65px;
+  margin-left: 80px;
+  border-radius: 5px;
+}
+.squre .part2 .social .line4
+{
+	height: 8px;
+	width: 150px;
+	background: rgba(230,230,250,1);
+  position: absolute;
+  margin-top: 65px;
+  margin-left: 45%;
+  border-radius: 5px;
+}
+
+.squre .part3
+{
+	height: 550px;
+	width: 300px;
+	
+	position: relative;
+}
+.squre .part3 h1
+{
+	margin-left: 20px;
+	margin-top: 25px;
+	font-size: 25px;
+
+}
+.squre .part3 p
+{
+	margin-left: 20px;
+	margin-top: 5px;
+	color: darkgray;
+}
+.squre  .part3 .circle
+{
+	height: 40px;
+	width: 250px;
+	background: rgba(230,230,250,0.4);
+	border-radius: 10px;
+	margin-left: 20px;
+	margin-top: 35px;
+}
+.squre  .part3 .circle .a
+{
+	position: absolute;
+	margin-left: 25px;
+  margin-top: 15px;
+}
+
+.squre  .part3 .circle .b
+{
+	position: absolute;
+	margin-left: 180px;
+  margin-top: 15px;
+}
+
+
+.squre  .part3 .circle .mini
+{
+	height: 40px;
+	width: 80px;
+	background: rgba(255,250,240,1);
+	margin-left: 75px;
+	border-radius: 15px;
+}
+.squre  .part3 .circle .mini p
+{
+	margin-top: 15px;
+	position: absolute;
+	color: black;
+}
+.squre .part3 .activity
+{
+	height: 180px;
+	width: 250px;
+	background: rgba(255,250,240,1);
+	margin-top: 25px;
+	margin-left: 20px;
+	border-radius: 15px;
+	position: relative;
+}
+
+.squre .part3 .activity p
+{
+	margin-left: 10px;
+	margin-top: 20px;
+	position: absolute;
+	font-weight: bold;
+  color: black;
+}
+.squre .part3 .activity .line1
+{
+	position: absolute;
+	height: 90px;
+	width: 5px;
+	background: rgba(230,230,250,1);
+	margin-top: 38px;
+	margin-left: 20px;
+	border-radius: 15px;
+
+
+}
+.squre .part3 .activity .line2
+{
+	position: absolute;
+	height: 50px;
+	width: 5px;
+	background:deeppink;
+	margin-top: 115px;
+	margin-left: 20px;
+	border-radius: 15px;
+
+
+}
+
+.squre .part3 .activity .line3
+{
+	position: absolute;
+	height: 90px;
+	width: 5px;
+	background: rgba(230,230,250,1);
+	margin-top: 38px;
+	margin-left: 50px;
+	border-radius: 15px;
+
+
+}
+.squre .part3 .activity .line4
+{
+	position: absolute;
+	height: 80px;
+	width: 5px;
+	background:deeppink;
+	margin-top: 85px;
+	margin-left: 50px;
+	border-radius: 15px;
+
+
+}
+
+.squre .part3 .activity .line5
+{
+	position: absolute;
+	height: 90px;
+	width: 5px;
+	background: rgba(230,230,250,1);
+	margin-top: 38px;
+	margin-left: 80px;
+	border-radius: 15px;
+
+
+}
+.squre .part3 .activity .line6
+{
+	position: absolute;
+	height: 50px;
+	width: 5px;
+	background:deeppink;
+	margin-top: 115px;
+	margin-left: 80px;
+	border-radius: 15px;
+
+
+}
+
+.squre .part3 .activity .line7
+{
+	position: absolute;
+	height: 90px;
+	width: 5px;
+	background: rgba(230,230,250,1);
+	margin-top: 38px;
+	margin-left: 120px;
+	border-radius: 15px;
+
+
+}
+.squre .part3 .activity .line8
+{
+	position: absolute;
+	height: 50px;
+	width: 5px;
+	background:deeppink;
+	margin-top: 115px;
+	margin-left: 120px;
+	border-radius: 15px;
+
+
+}
+
+
+
+.squre .part3 .activity .line9
+{
+	position: absolute;
+	height: 90px;
+	width: 5px;
+	background: rgba(230,230,250,1);
+	margin-top: 38px;
+	margin-left: 160px;
+	border-radius: 15px;
+
+
+}
+.squre .part3 .activity .line10
+{
+	position: absolute;
+	height: 50px;
+	width: 5px;
+	background:deeppink;
+	margin-top: 115px;
+	margin-left: 160px;
+	border-radius: 15px;
+
+
+}
+
+.squre .part3 .activity .line11
+{
+	position: absolute;
+	height: 90px;
+	width: 5px;
+	background: rgba(230,230,250,1);
+	margin-top: 38px;
+	margin-left: 200px;
+	border-radius: 15px;
+
+
+}
+.squre .part3 .activity .line12
+{
+	position: absolute;
+	height: 50px;
+	width: 5px;
+	background:deeppink;
+	margin-top: 115px;
+	margin-left: 200px;
+	border-radius: 15px;
+
+
+}
+
+
