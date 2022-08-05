@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>moving ball</title>
+    <style type="text/css">
+    	*{box-sizing: border-box;margin: 0;padding: 0;}
+      body
+      {
+         background: linear-gradient(blue,white,gray);
+         height: 100vh;
+      }
+    	.box
+    	{
+    		height: 400px;
+    		width: 400px;
+    		background: black;
+    		margin: 50px auto;
+    		border-radius: 10px;
+    		position: relative;
+         overflow: hidden;
+         box-shadow: 0px 0px 50px red ;
+    		}
+    	
+    	.box .ball1
+      {
+         height: 50px;
+         width: 50px;
+         background: darkorange;
+         border-radius: 50%;
+         position: absolute;
+         left: 88%;
+         animation: utsav1 2s linear infinite  ;
+
+      }	
+
+    	.box .ball2
+    	{
+    		height: 50px;
+    		width: 50px;
+    		background: coral;
+    		border-radius: 50%;
+    		position: absolute;
+    		margin-top: 350px;
+    		margin-left: 350px;
+    	    animation: utsav2 3s linear infinite;
+
+    	}    
+
+    	.box .ball3
+    	{
+    		height: 50px;
+    		width: 50px;
+    		background: darkblue;
+    		border-radius: 50%;
+    		position: absolute;
+    		margin-top: 350px;
+    		 animation: utsav3 4s linear infinite;
+    		
+    	}	
+
+    	.box .ball4
+    	{
+    		height: 50px;
+    		width: 50px;
+    		background: white;
+    		border-radius: 50%;
+    		 animation: utsav4 4s linear infinite;
+    		
+    	}
+      .box .ball5
+      {
+         height: 50px;
+         width: 50px;
+         background: pink;
+         border-radius: 50%;
+         position: absolute;
+         left: 45%;
+         animation: utsav5 3s linear infinite;
+      }
+
+       @keyframes utsav1
+      {
+         0%{background: black; transform: translate(0);}
+         50%{background: lightcyan;height:0 ; width: 0;transform:translate(-320PX,300PX);}
+          
+      }
+    	
+    	    
+
+         
+
+        @keyframes utsav2
+    	{
+    		0%{background: black; transform: translate(0);}
+    		50%{background: yellow;height:0 ; width: 0;transform:translate(-310PX,-245PX);}
+    	    
+
+         }
+           
+
+    	@keyframes utsav3
+    	{
+    		0%{background: black; transform: translate(0);}
+    		50%{background: darkgoldenrod;height:0 ; width: 0;transform:translate(350PX,-245PX);}
+    	    
+
+         }
+  
+        
+         @keyframes utsav4
+    	{
+    		0%{background: black; transform: translate(0);}
+    		50%{background: lemonchiffon;height:0 ; width: 0;transform:translate(350PX,245PX);}
+    	    
+
+         }
+
+          @keyframes utsav5
+      {
+         0%{background: black; transform: translate(0);}
+         50%{background: darkseagreen;height:0 ; width: 0;transform:translate(0PX,355PX);}
+          
+
+         }
+
+    </style> 
+
+
+</head>
+<body>
+   <div class="box">
+   	<div class="ball1"></div>
+   	<div class="ball2"></div>
+   	<div class="ball3"></div>
+   	<div class="ball4"></div>
+   	<div class="ball5"></div>
+   	<div class="ball6"></div>
+   </div>
+
+
+
+
+</body>
+</html>

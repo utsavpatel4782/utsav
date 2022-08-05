@@ -1,0 +1,154 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: monospace;
+	background: linear-gradient(blue,whitesmoke,blue,white);
+	height: 100vh;
+	overflow: hidden;
+
+
+}
+.LARGE{
+	height: 250PX;
+	width: 250PX;
+	background:linear-gradient(darkgoldenrod,white);
+	border-radius: 50%;
+	margin-left: 720PX;
+	margin-top: 80PX;
+}
+.SEMI{
+	height: 200PX;
+	width: 200PX;
+	background:linear-gradient(darkgoldenrod,white);
+	border-radius: 50%;
+	margin-left: 450PX;
+	margin-top: 25PX;
+}
+
+
+
+
+
+
+
+
+.center{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	height: 450px;
+	width: 300px;
+	background:;
+	border-radius: 10px;
+	box-shadow: 0 0 4rem 0 rgba(0,0,0,0.2);
+
+}
+.center h1{
+	text-align: center;
+	font-size: 40px;
+
+
+
+}
+.center p{
+	position: relative;
+	text-align: center;
+	top: -8%;
+	font-size: 15px;
+
+}
+
+
+
+
+.center form{
+	padding:  0  60px;
+}
+.center form .field{
+	position: relative;
+	height: 40px;
+	width: 100%;
+
+}
+.field input{
+	position:relative;
+	right: 15px;
+	top: -40%;
+	border:none;
+	border-radius:15px ;
+	padding: 5px;
+
+  }
+  .password input{
+  	position: relative;
+  	right: 15px;
+  	border: none;
+  	padding: 5px;
+  	border-radius: 15px;
+  	margin-top: -5px;
+
+
+}
+.pass{
+	position: relative;
+	padding-top: 10px;
+	margin-left: 70px;
+}
+.sub input{
+	position: relative;
+	
+	border-radius: 15px;
+    
+    border:none;
+    width: 100%;
+    padding: 4px;
+    left: -8%;
+   margin-top: 10px;
+
+}
+.iam{
+	position: relative;
+	margin-top: 30px;
+	font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+
+	
+	
+
+	
+

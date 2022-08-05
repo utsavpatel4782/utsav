@@ -1,0 +1,346 @@
+*{box-sizing: border-box; margin: 0; padding: 0;}
+
+.header
+{
+  height: 50px;
+  width: 100%;
+  background: #000;
+  display: flex;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  font-size: 20px;
+
+}
+.header i {
+	margin: 10px;
+	color: #2fdab8;
+}
+
+.header .blank1
+{
+	height: 50px;
+	width: 16.66%;
+	background: ;
+}
+
+
+
+.header .signin
+{
+	height: 50px;
+	width: 16.66%;
+	background: ;
+	border-right: 1px solid #464444;
+
+}
+.signin a
+{
+  color: white;
+  text-decoration: none;
+
+}
+
+.signup a
+{
+  color: white;
+  text-decoration: none;
+  
+}
+
+.call a
+{
+  color: white;
+  text-decoration: none;
+  
+}
+
+.info a
+{
+  color: white;
+  text-decoration: none;
+  
+}
+
+
+
+
+.header .signup
+{
+	height: 50px;
+	width: 16.66%;
+	background: ;
+	border-right: 1px solid #464444;
+}
+
+
+
+.header .call
+{
+	height: 50px;
+	width: 16.66%;
+	background: ;
+	border-right: 1px solid #464444;
+}
+
+
+
+.header .info
+{
+	height: 50px;
+	width: 16.66%;
+	background:;
+	border-right: 1px solid #464444;
+
+}
+
+
+.header .blank2
+{
+	height: 50px;
+	width: 16.66%;
+	background:;
+}
+
+.subheader
+{
+	height: 150px;
+	width: 100%;
+	background:;
+	display: flex;
+	
+	
+}
+
+.subheader .search
+{
+	height: 150px;
+	width: 33.33%;
+	background: white;
+	position: relative;
+	
+}
+
+.subheader .logo
+{
+	height: 150px;
+	width: 33.33%;
+	background: white;
+	position: relative;
+}
+.subheader .social
+{
+	height: 150px;
+	width: 33.33%;
+	background: white;
+	position: relative;
+}
+
+ 
+.subheader .search input
+{ position: absolute;
+	outline: none;
+ 	left: 10%;
+ 	top: 30%;
+ 	width: 50%;
+ 	height: 40px;
+ 	box-sizing: border-box;
+
+}
+.subheader .search .btn button
+{
+	position: absolute;
+	left: 63%;
+	top: 30%;
+	padding: 13px;
+	background:#2fdab8 ;
+	outline: none;
+	border: none;
+	color: white;
+}
+
+
+
+.subheader .logo 
+{ 
+  height: 150px;
+  justify-content:center ;
+  align-items: center;
+  display: flex;
+
+
+ 
+}
+ h1
+{
+	position: relative;
+}
+.subheader .logo h1 span
+{
+ color: white;
+ font-size: 50px;
+padding: 1PX 20PX;
+}
+.subheader .logo h1 i
+{
+	position: absolute;
+	top: 82%;
+	left: 90%;
+	color: #2fdab8 ;
+	font-size: 20PX;
+	
+}
+.subheader .social h4
+{ position: absolute;
+	text-align: center;
+	line-height: 150px;
+	left: 22%;
+	top: 8%;
+
+}
+.subheader .social .facebook i
+{
+	position: absolute;
+	left: 42%;
+	top: 40%;
+	background: #3b5998;
+	padding: 12PX;
+	margin-left:15PX ;
+	color: white;
+	transform: rotate(360deg);
+	animation: face1 2s ;
+
+}
+@keyframes face1
+{
+	from{transform: rotate(0deg);}
+	to{transform: rotate(360deg);}
+}
+
+.subheader .social .insta i
+{
+	position: absolute;
+	left: 45%;
+	top: 40%;
+	 background: #f77737;
+	 padding: 12PX;
+	 margin-left: 40PX;
+	 color: white;
+
+}
+
+.subheader .social .twi i
+{
+	position: absolute;
+	left:49%;
+	top:40%;
+	 background: #00acee;
+	 	padding: 12PX;
+	 	margin-left: 65PX;
+	 	color: white;
+
+
+	 }
+
+.subheader .social .linkedin i
+{
+	position: absolute;
+	left: 53%;
+	top: 40%;
+	 background: #bd081c;
+	 	padding: 12PX;
+	 	margin-left: 90PX;
+	 	color: white;
+}
+
+.nav
+{
+	height: 80px;
+	width:100% ;
+	background: black;
+	display: flex;
+
+}
+
+.nav .home
+{
+	height: 80px;
+	width: 70%;
+	background: ;
+
+	
+}
+.nav .logo
+{
+	height: 80px;
+	width: 20%;
+	background: #2fdab8 ;
+	position: relative;
+}
+
+.nav .blank1
+{
+	height: 80px;
+	width: 10%;
+	background: black;
+}
+.nav .home ul
+{
+  margin: 0;	
+  padding: 0;
+  margin-left: 20%;
+
+
+}
+.nav .home ul li
+{
+	list-style: none;
+	display: inline;
+	margin-right: 50px;
+	position: relative;
+}
+.nav .home ul li a
+{
+	color: white;
+	text-align: center;
+	line-height: 80PX;
+	text-decoration: none;
+}
+.nav .logo a i
+{
+	position: absolute;
+	margin-left: 40%;
+	margin-top: 4%;
+	font-size: 50px;
+	color: black;
+}
+ .nav .home ul li::after
+{
+  	content: "";
+	height:5px;
+	width: 0px;
+	background: #25ffcd;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	bottom: 0;
+	transition: 1s;
+
+}
+.nav .home ul li:hover::after
+		{
+			height: 5px;
+			width: 100%;
+		}
+
+
+
+/*.nav .home ul li a:hover
+{
+	color: red;
+	transition: 1.3s;
+	font-size: 20px;
+
+}*/
+
+

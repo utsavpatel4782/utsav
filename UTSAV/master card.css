@@ -1,0 +1,71 @@
+body{
+	background: black;
+	height: 100vh;
+
+}
+.semi{
+	height: 100px;
+	width: 100px;
+	border-radius:50% ;
+	margin-left: 500px;
+	margin-top: 150px;
+
+	background:linear-gradient(red,orange);
+}	
+.large{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	margin: -200px 650px;
+	padding: 100px;
+	background: linear-gradient(red,blue);
+}
+.circle{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	background: linear-gradient( deeppink,royalblue);
+    margin-left: 380px;
+    margin-top: 200px;
+
+
+
+}
+.card{
+	height: 250px;
+	width: 380px;
+	background: rgba(86, 105, 115, 0.75);
+	position: absolute;
+	/*margin: -400px;*/
+	margin-top: -380px;
+	margin-left: 450px;
+	margin-bottom: 300px;
+	border-radius: 20px;
+
+
+}
+.mm{
+	color: white;
+	position: absolute;
+	height: 100%;
+	right: 775px;
+	top: 200px;
+
+	
+}
+.u{
+	color: white;
+	position: absolute;
+	height: 100%;
+	font-size: 25px;
+	right: 770px;
+	top: 350px;
+}
+.UX{
+	color: white;
+	position: absolute;
+	height: 100%;
+	right: 793PX;
+	top: 380PX;
+	font-size: 10PX;
+}

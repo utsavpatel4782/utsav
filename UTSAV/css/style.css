@@ -1,0 +1,821 @@
+*{box-sizing: border-box; margin: 0; padding: 0;}
+
+.header
+{
+  height: 50px;
+  width: 100%;
+  background: #000;
+  display: flex;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  font-size: 20px;
+
+}
+.header i {
+	margin: 10px;
+	color: #2fdab8;
+}
+
+.header .blank1
+{
+	height: 50px;
+	width: 16.66%;
+	background: ;
+}
+
+
+
+.header .signin
+{
+	height: 50px;
+	width: 16.66%;
+	background: ;
+	border-right: 1px solid #464444;
+
+}
+.signin a
+{
+  color: white;
+  text-decoration: none;
+
+}
+
+.signup a
+{
+  color: white;
+  text-decoration: none;
+  
+}
+
+.call a
+{
+  color: white;
+  text-decoration: none;
+  
+}
+
+.info a
+{
+  color: white;
+  text-decoration: none;
+  
+}
+
+
+
+
+.header .signup
+{
+	height: 50px;
+	width: 16.66%;
+	background: ;
+	border-right: 1px solid #464444;
+}
+
+
+
+.header .call
+{
+	height: 50px;
+	width: 16.66%;
+	background: ;
+	border-right: 1px solid #464444;
+}
+
+
+
+.header .info
+{
+	height: 50px;
+	width: 16.66%;
+	background:;
+	border-right: 1px solid #464444;
+
+}
+
+
+.header .blank2
+{
+	height: 50px;
+	width: 16.66%;
+	background:;
+}
+
+.subheader
+{
+	height: 150px;
+	width: 100%;
+	background:;
+	display: flex;
+	
+	
+}
+
+.subheader .search
+{
+	height: 150px;
+	width: 33.33%;
+	background: white;
+	position: relative;
+	
+}
+
+.subheader .logo
+{
+	height: 150px;
+	width: 33.33%;
+	background: white;
+	position: relative;
+}
+.subheader .social
+{
+	height: 150px;
+	width: 33.33%;
+	background: white;
+	position: relative;
+}
+
+ 
+.subheader .search input
+{ position: absolute;
+	outline: none;
+ 	left: 10%;
+ 	top: 30%;
+ 	width: 50%;
+ 	height: 40px;
+ 	box-sizing: border-box;
+
+}
+.subheader .search .btn button
+{
+	position: absolute;
+	left: 63%;
+	top: 30%;
+	padding: 13px;
+	background:#2fdab8 ;
+	outline: none;
+	border: none;
+	color: white;
+}
+
+
+
+.subheader .logo 
+{ 
+  height: 150px;
+  justify-content:center ;
+  align-items: center;
+  display: flex;
+
+
+ 
+}
+ h1
+{
+	position: relative;
+}
+.subheader .logo h1 span
+{
+ color: white;
+ font-size: 50px;
+padding: 1PX 20PX;
+}
+.subheader .logo h1 i
+{
+	position: absolute;
+	top: 82%;
+	left: 90%;
+	color: #2fdab8 ;
+	font-size: 20PX;
+	
+}
+.subheader .social h4
+{ position: absolute;
+	text-align: center;
+	line-height: 150px;
+	left: 22%;
+	top: 8%;
+
+}
+.subheader .social .facebook i
+{
+	position: absolute;
+	left: 42%;
+	top: 40%;
+	background: #3b5998;
+	padding: 12PX;
+	margin-left:15PX ;
+	color: white;
+	transform: rotate(360deg);
+	animation: face1 2s ;
+
+}
+@keyframes face1
+{
+	from{transform: rotate(0deg);}
+	to{transform: rotate(360deg);}
+}
+
+.subheader .social .insta i
+{
+	position: absolute;
+	left: 45%;
+	top: 40%;
+	 background: #f77737;
+	 padding: 12PX;
+	 margin-left: 40PX;
+	 color: white;
+
+}
+
+.subheader .social .twi i
+{
+	position: absolute;
+	left:49%;
+	top:40%;
+	 background: #00acee;
+	 	padding: 12PX;
+	 	margin-left: 65PX;
+	 	color: white;
+
+
+	 }
+
+.subheader .social .linkedin i
+{
+	position: absolute;
+	left: 53%;
+	top: 40%;
+	 background: #bd081c;
+	 	padding: 12PX;
+	 	margin-left: 90PX;
+	 	color: white;
+}
+
+.nav
+{
+	height: 80px;
+	width:100% ;
+	background: black;
+	display: flex;
+
+}
+
+.nav .home
+{
+	height: 80px;
+	width: 70%;
+	background: ;
+
+	
+}
+.nav .logo
+{
+	height: 80px;
+	width: 20%;
+	background: #2fdab8 ;
+	position: relative;
+}
+
+.nav .blank1
+{
+	height: 80px;
+	width: 10%;
+	background: black;
+}
+.nav .home ul
+{
+  margin: 0;	
+  padding: 0;
+  margin-left: 20%;
+
+
+}
+.nav .home ul li
+{
+	list-style: none;
+	display: inline;
+	margin-right: 50px;
+	position: relative;
+}
+.nav .home ul li a
+{
+	color: white;
+	text-align: center;
+	line-height: 80PX;
+	text-decoration: none;
+
+
+}
+.nav .logo a i
+{
+	position: absolute;
+	margin-left: 40%;
+	margin-top: 4%;
+	font-size: 50px;
+	color: black;
+}
+ .nav .home ul li::after
+{
+  	content: "";
+	height:5px;
+	width: 0px;
+	background: #25ffcd;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	bottom: 0;
+	transition: 1s;
+
+}
+.nav .home ul li:hover::after
+		{
+			height: 5px;
+			width: 100%;
+		}
+
+
+
+/*.nav .home ul li a:hover
+{
+	color: red;
+	transition: 1.3s;
+	font-size: 20px;
+
+}*/
+
+
+.content
+{
+	height: 500px;
+	width: 100%;
+	background: white;
+	display: flex;
+
+
+}
+.content .part1
+{
+	
+	height: 300px;
+	width: 500px;
+	background:url(https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/bottom1.jpg);
+	margin-left: 200px;
+	margin-top: 100px;
+	border: 15px solid rgba(255, 255, 255,0.4);
+	background-origin: border-box;
+	box-sizing: 100% 100%;
+	transition: 1s;
+	background-position: -30px 0;
+
+
+}
+.content .part1 .border1
+{
+	height: 200px;
+	width: 400px;
+	background: transparent;
+	border: 4px solid white;
+	margin-left: 10px;
+	margin-top: 25px;
+	display: none;
+	transition: 1s;
+	position: relative;
+
+}
+.content .part1:hover
+{
+  background-position: 0px 0;
+}
+
+
+.part1:hover .border1
+{
+	display: block;
+	animation: border1 1s forwards;
+}
+@keyframes border1
+{
+	from{transform: translate(0px);}
+	to{transform: translate(30px);}
+}
+.content .part1 .border1 .text1
+{
+	color: white;
+	position: absolute;
+	left: 50%;
+	top: 30%;
+	font-size: 30px;
+}
+.content .part1 .border1 .text1 span
+{
+	font-size: 50px;
+	color: red;
+}
+.content .part1 .border1 P
+{
+	position: absolute;
+	color: white;
+	font-size: 25PX;
+	left: 40%;
+	top: 65%;
+}
+
+.content .part2
+{
+	position: absolute;
+	height: 300px;
+	width: 500px;
+	background:url(https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/bottom2.jpg);
+	margin-left: 800px;
+	margin-top: 100px;
+	border: 15px solid rgba(255, 255, 255,0.4);
+	background-origin: border-box;
+	box-sizing: 100% 100%;
+	background-position: -30px 0;
+	transition: 1s;
+
+}
+.content .part2 .border2
+{
+	height: 200px;
+	width: 400px;
+	background: transparent;
+	border:4px solid white;
+	margin-left: 10px;
+	margin-top: 25px;
+	display: none;
+	transition: 1s;
+	position: relative;
+
+}
+.content .part2:hover
+{
+  background-position: 0px 0;
+}
+
+
+.part2:hover .border2
+{
+	display: block;
+	animation: border2 1s forwards;
+}
+@keyframes border2
+{
+	from{transform: translate(0px);}
+	to{transform: translate(30px);}
+}
+
+.content .part2 .border2 .text2
+{
+	color: white;
+	position: absolute;
+	left: 50%;
+	top: 30%;
+	font-size: 30px;
+}
+.content .part2 .border2 .text2 span
+{
+	font-size: 50px;
+	color: red;
+}
+.content .part2 .border2 P
+{
+	position: absolute;
+	color: white;
+	font-size: 25PX;
+	left: 40%;
+	top: 65%;
+}
+
+.week
+{
+	height: 550px;
+	width: 100%;
+	background:#2fdab8 ;
+	display: flex;
+}
+.week .img2
+{
+	height: 550px;
+	width: 780px;
+	background:url(https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/mid.jpg);
+
+}
+.week .save
+{
+	height: 350px;
+	width: 650px;
+	background: white;
+	margin-top: 120px;
+	
+
+}
+.week .save h2
+{
+	margin-left: 20px;
+	margin-top: 50px;
+}
+.week .save h2 span
+{
+	color: red;
+}
+.week .save .font
+{
+	
+font-size: 18px;
+margin-top: 25px;
+margin-left: 20px;
+color: gray;
+
+}
+.week .icon
+{
+	height:205px;
+  width: 650px;
+  background: white;
+
+}
+.week .icon i
+{
+	margin-left: 140px;
+	margin-top: 30px;
+	font-size: 35px;
+	color:#2fdab8 ;
+}
+.week .icon .customers
+{
+  margin-left:95px;
+  margin-top: 20px;
+  
+}
+.week .icon .events
+{
+	margin-left: 295px;
+	margin-top: -22px;
+}
+.week .icon .awards
+{
+	margin-left: 465px;
+	margin-top: -22px;
+}
+
+.big
+{
+	height: 950px;
+	width: 100%;
+	background: white;
+	position: relative;
+}
+.big .what
+{
+	position: absolute;
+	margin-left: 38%;
+	margin-top: 5%;
+	font-size: 40px;
+	color: gray;
+
+}
+.big .what span
+{
+	font-weight: bold;
+	color: black;
+}
+.big .picture1
+{
+	position: absolute;
+	height: 700px;
+	width: 500px;
+	background:url(https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/bb1.jpg);
+	box-sizing: 100% 100%;
+	background-size: cover;
+	background-origin: border-box;
+	margin-left: 6%;
+	margin-top: 12%;
+  
+	border: 10px solid rgba(255,255, 255, 0.4);
+	background-position:-30px 0;
+	transition: 0.5s;
+}
+.big .picture1:hover
+{
+	background-position: 0px 0;
+}
+
+
+.big .picture1 .border3
+{
+	height: 550px;
+	width: 400px;
+	background: blueviolet;
+	border: 4px solid white;
+	margin-top: 55px;
+	margin-left: 40px;
+	background: transparent;
+	display: none;
+	transition: 0.5s;
+
+}
+
+.big .picture1:hover .border3 
+{
+	display: block;
+	animation: border3 0.5s forwards;
+}
+@keyframes border3
+{
+	from{transform: translate(0);}
+	to{transform: translate(30px);}
+}
+.big .picture1 .border3 p
+{
+ margin-left: 60%;
+ margin-top: 18%;
+ font-size: 35px;
+ color: white;
+}
+.big .picture1 .border3 span
+{
+	color: red;
+}
+.big .picture1 .border3 H4
+{
+	margin-left: 40%;
+ margin-top: 2%;
+ font-size: 20px;
+ color: white;
+}
+.big .picture2
+{
+	position: absolute;
+	height: 300PX;
+	width: 600PX;
+	background:url(https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/bottom3.jpg);
+	margin-left: 43%;
+	margin-top: 12%;
+	box-sizing: 100% 100%;
+	background-size: cover;
+	border: 10px solid rgba(255,255, 255, 0.4);
+	background-origin: border-box;
+	background-position: -30px 0;
+	transition: 0.5s;
+}
+.big .picture2:hover
+{
+	background-position: 0px 0;
+
+}
+
+.big .picture2 .border4
+{
+	height: 200px;
+	width: 500px;
+	background: transparent;
+	border: 4px solid white;
+	margin-left: 8%;
+	margin-top: 8%;
+	display: none;
+	transition: 0.5s;
+	
+
+}
+.big .picture2:hover .border4
+{
+	display: block;
+	animation: border4 0.5s forwards;
+}
+@keyframes border4
+{
+	from{transform: translate(0px);}
+	to{transform: translate(30px);}
+}
+.big .picture2 .border4 p
+{
+	margin-left: 80%;
+	margin-top: 10%;
+	color: white;
+	font-size: 35px;
+}
+.big .picture2 .border4 span
+{
+	color: red;
+}
+.big .picture2 .border4 h4
+{
+	margin-left: 65%;
+	margin-top: 2%;
+	color: white;
+	font-size: 20px;
+}
+
+.big .picture3
+{
+	position: absolute;
+	height: 300px ;
+	width: 600px;
+	background:url(https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/bottom4.jpg);
+	margin-top: 35%;
+	margin-left: 43%;
+  box-sizing: 100% 100%;
+  background-size: cover;
+  border: 10PX solid rgba(255, 255, 255, 0.4);
+  background-origin: border-box;
+  background-position: -30PX 0;	
+  transition: 0.5S;
+}
+.big .picture3:hover
+{
+	background-position: 0px 0;
+
+}
+
+.big .picture3 .border5
+{
+	height: 200px;
+	width: 500px;
+	background:transparent;
+	border: 4px solid white;
+	margin-left: 8%;
+	margin-top: 9%;
+	display: none;
+	transition: 0.5s;
+	
+
+}
+.big .picture3:hover .border5
+{
+	display: block;
+	animation: border4 0.5s forwards;
+}
+@keyframes border5
+{
+	from{transform: translate(0px);}
+	to{transform: translate(30px);}
+}
+.big .picture3 .border5 p
+{
+	margin-left: 80%;
+	margin-top: 10%;
+	color: white;
+	font-size: 35px;
+}
+.big .picture3 .border5 span
+{
+	color: red;
+}
+.big .picture3 .border5 h4
+{
+	margin-left: 65%;
+	margin-top: 2%;
+	color: white;
+	font-size: 20px;
+}
+
+.twoimg
+{
+	height: 450px;
+	width: 100%;
+	background: gray;
+	display: flex;
+}
+.twoimg .imgone
+{
+	height: 450px;
+	width: 50%;
+	background:url(https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/bot_1.jpg);
+	background-size: cover;
+}
+
+.twoimg .imgtwo
+{
+	height: 450px;
+	width: 50%;
+	background:url(https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/bot_2.jpg);
+
+	background-size: cover;
+}
+.twoimg .imgone P
+{
+	text-align: center;
+	line-height: 450px;
+	font-size: 35px;
+	color:white;
+}
+.twoimg .imgone p span
+{
+	color: #2fdab8;
+}
+.twoimg .imgtwo 
+{
+	text-align: center;
+	line-height: 450px;
+	font-size: 35px;
+	color:white;
+}
+.twoimg .imgtwo span 
+{
+	color: #2fdab8;
+}
+
+
