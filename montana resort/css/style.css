@@ -1,0 +1,1231 @@
+*{box-sizing: border-box;margin: 0;padding: 0;}
+
+/*first position start*/
+.main
+{
+	height: 650px;
+	width: 100%;
+	background:url(https://preview.colorlib.com/theme/montana/img/banner/xbanner.png.pagespeed.ic.Fz8_Hc8pX8.jpg);
+    background-size: 100% 100%;	
+}
+
+.main .nav
+{
+	height: 150px;
+	width: 100%;
+	background:transparent;
+	display: flex;
+}
+.main .nav .menu
+{
+	height: 150px;
+	width: 33.33%;
+	/*border: 2px solid skyblue;*/
+
+}
+.main .nav .menu ul
+{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	line-height: 150px;
+	
+	
+}
+.menulist
+{
+	position: relative;
+}
+.main .nav .menu .menulist .list
+{
+	list-style: none;
+	display: inline;
+	padding:10px 10px;
+}
+.main .nav .menu a
+{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	position: relative;
+}
+
+.main .nav .menu a::after
+{
+             content: "";
+        	position: absolute;
+        	bottom: -10px;
+        	left: 50%;
+        	width: 0;
+        	height: 2px;
+        	background: white;
+        	transition: 0.4s ease-out;
+}
+
+.main .nav .menu a:hover::after
+{
+	left: 0;
+	width: 100%;
+}
+
+.submenu
+{
+	height: 100px;
+	width: 200px;
+	background: black;
+	position: absolute;
+	display: none;
+	left: 52%;
+	top:70%;
+}
+.list:hover .submenu
+{
+	display: block;
+}
+
+.submenu li
+{
+	list-style: none;
+	margin-top:60px;
+}
+.submenu .b
+{
+  margin-top: -50px;
+  margin-left: -120px;
+}
+.submenu .s
+{
+ margin-top: -110px;
+ margin-left: -70px;
+}
+
+.submenu2
+{
+	height: 50px;
+	width: 200px;
+	background: black;
+	position: absolute;
+	top: 70%;
+	left: 68%;
+	display: none;
+}
+.submenu2 .e
+{
+	list-style: none;
+	margin-top: -50px;
+	margin-left: -80px;
+}
+.list:hover .submenu2
+{
+	display: block;
+}
+
+
+.main .nav .logo
+{
+	height: 150px;
+	width: 33.33%;
+	/*border: 2px solid darkred;*/
+}
+
+.main .nav .logo .logo1
+{
+	height: 50px;
+	width:100%;
+	background:;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+
+}
+.main .nav .logo .logo1 .box
+{
+	height: 50px;
+	width: 50px;
+	border: 1px solid white;
+	/*margin-left: 200px;*/
+	font-size: 40px;
+	text-align: center;
+	color: white;
+
+}
+.main .nav .logo2
+{
+	height: 50px;
+	width: 100%;
+	background: ;
+	text-align: center;
+	line-height: 50px;
+	font-size: 60px;
+	color: white;
+}
+
+.main .nav .logo3
+{
+	height: 50px;
+	width: 100%;
+	background:;
+	text-align: center;
+	/*line-height: 50px;*/
+	color: white;
+	font-size: 20px;
+}
+.main .nav .icon
+{
+	height: 150px;
+	width: 33.33%;
+	/*border: 2px solid green;*/
+	
+	text-align: center;
+	line-height: 150px;
+}
+
+.main .nav .icon i
+{
+	padding-left: 20px;
+	font-size: 20px;
+	color: lightgray;
+}
+.main .nav .icon i:hover
+{
+	color: white;
+}
+.main .nav .icon button
+{
+	padding: 15px 40px;
+	background: darkblue;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+.main .nav .icon button:hover
+{
+	background: white;
+	color: blue;
+	border: blue;
+}
+
+.main .montana
+{
+	height: auto;
+	width: 100%;
+	background: ;
+}
+
+.main .montana .montana1
+{
+	height: auto;
+	width: 100%;
+	background: transparent;
+	text-align: center;
+    padding-top: 200px;
+    font-size: 50px;
+    color: white;
+	
+}
+
+
+
+.main .montana .unlock
+{
+	height: 200px;
+	width: 100%;
+	background: transparent;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+}
+
+/*first position end*/
+
+
+/*second position start*/
+
+.second
+{
+	height: auto;
+	width: 100%;
+	background: ;
+}
+.second .second1
+{
+	height: auto;
+	width: 90%;
+	background: ;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+
+
+.second .second1 .text
+{
+	height: 500px;
+	width: 50%;
+	background:;
+}
+.second .second1 .text .about
+{
+  height: 100px;
+  width: 100%;
+  background: ;
+  padding-top: 60px;
+  color: blue;
+  font-size: 20px;
+}
+
+.second .second1 .text .nature
+{
+  height: 150px;
+  width: 100%;
+  background: ;
+  font-size: 60px;
+
+}
+
+.second .second1 .text .para
+{
+  height: 250px;
+  width: 100%;
+  background: ;
+  font-size: 25px;
+  color: gray;
+
+}
+
+.second .second1 .image
+{
+	height: 500px;
+	width: 50%;
+	background: ;
+	display: flex;
+}
+
+.second .second1 .image .image1
+{
+ height: 400px;
+ width: 40%;
+ background:url(https://preview.colorlib.com/theme/montana/img/about/xabout_1.png.pagespeed.ic.LF5rkD9bee.webp);
+ margin-top: 50px;
+ margin-left: 50px;
+ background-size: 100% 100%;
+ 
+}
+
+.second .second1 .image .image2
+{
+ height: 400px;
+ width: 40%;
+ background:url(https://preview.colorlib.com/theme/montana/img/about/xabout_2.png.pagespeed.ic.Iswjjsyaxg.webp);
+ margin-top: 90px;
+ margin-left: 20px;
+ background-size: 100% 100%;
+
+}
+
+
+
+/*second position end*/
+
+/*on going start*/
+
+.ongoing
+{
+	height: 100px;
+	width: 100%;
+	background: ;
+	text-align: center;
+	line-height: 100px;
+	font-size: 50px;
+	/*color: white;*/
+}
+/*on going end*/
+
+/*third position start*/
+
+.third
+{
+	height: auto ;
+	width: 100%;
+	background: ;
+}
+.third .third1
+{
+	height:;
+	width: 90%;
+	background: ;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.third .third1 .part1
+{
+	height: 700px;
+	width: 30%;
+	background: ;
+	margin-left: 20px;
+	
+	
+
+}
+.third .third1 .part1 .image1
+{
+	height: 400px;
+	width: 100%;
+	background:;
+  
+  overflow: hidden;
+}
+.third .third1 .part1 .image1 img
+{
+	transition: 1s ease;
+}
+.third .third1 .part1 .image1:hover img
+{
+	transform: scale(1.3);
+	
+	
+}
+
+
+.third .third1 .part1 .upto
+{
+	height: 100px;
+	width: 100%;
+	background: ;
+	font-size: 25px;
+  padding-top: 30px;
+}
+.third .third1 .part1 .point
+{
+	height: 100px;
+	width: 100%;
+	background: ;
+	font-size: 20px;
+  color: black;
+  padding-top: 20px;
+
+}
+.third .third1 .part1 .btn
+{
+	height: 100px;
+	width: 100%;
+	background:;
+
+
+}
+.third .third1 .part1 .btn button
+{
+	padding: 0px 140px;
+	margin-top: 20px;
+	margin-left:10px ;
+	margin-right: 10px;
+	font-size: 20px;
+	border: 1px solid lightblue;
+	color: lightblue;
+	cursor: pointer;
+}
+.third .third1 .part1 .btn button:hover
+{
+	background: blue;
+	color: white;
+}
+
+.third .third1 .part2
+{
+	height: 700px;
+	width: 30%;
+	background: ;
+	
+	margin-left: 20px;
+
+}
+
+.third .third1 .part2 .image01
+{
+	height: 400px;
+	width: 100%;
+	background:;
+  overflow: hidden;
+
+}
+.third .third1 .part2 .image01 img
+{
+	transition: 1s ease;
+}
+.third .third1 .part2 .image01:hover img
+{
+	transform: scale(1.3);
+}
+
+.third .third1 .part2 .upto01
+{
+	height: 100px;
+	width: 100%;
+	background: ;
+	font-size: 25px;
+  padding-top: 30px;
+}
+.third .third1 .part2 .point01
+{
+	height: 100px;
+	width: 100%;
+	background: ;
+	font-size: 20px;
+  color: black;
+  padding-top: 20px;
+
+}
+.third .third1 .part2 .btn01
+{
+	height: 100px;
+	width: 100%;
+	background: ;
+
+
+}
+.third .third1 .part2 .btn01 button
+{
+	padding: 0px 140px;
+	margin-top: 20px;
+	margin-left:10px ;
+	margin-right: 10px;
+	font-size: 20px;
+	border: 1px solid lightblue;
+	color: lightblue;
+	cursor: pointer;
+}
+.third .third1 .part2 .btn01 button:hover
+{
+	background: blue;
+	color: white;
+}
+
+
+.third .third1 .part3
+{
+	height: 700px;
+	width: 30%;
+	background: ;
+	margin-left: 20px;
+
+
+}
+.third .third1 .part3 .image02
+{
+	height: 400px;
+	width: 100%;
+	background:;
+	overflow: hidden;
+ 
+}
+.third .third1 .part3 .image02 img
+{
+	transition: 1s ease;
+}
+.third .third1 .part3 .image02:hover img
+{
+	transform: scale(1.3);
+}
+
+.third .third1 .part3 .upto02
+{
+	height: 100px;
+	width: 100%;
+	background: ;
+	font-size: 25px;
+  padding-top: 30px;
+}
+.third .third1 .part3 .point02
+{
+	height: 100px;
+	width: 100%;
+	background: ;
+	font-size: 20px;
+  color: black;
+  padding-top: 20px;
+
+}
+.third .third1 .part3 .btn02
+{
+	height: 100px;
+	width: 100%;
+	background: ;
+
+
+}
+.third .third1 .part3 .btn02 button
+{
+	padding: 0px 140px;
+	margin-top: 20px;
+	margin-left:10px ;
+	margin-right: 10px;
+	font-size: 20px;
+	border: 1px solid lightblue;
+	color: lightblue;
+	cursor: pointer;
+}
+.third .third1 .part3 .btn02 button:hover
+{
+	background: blue;
+	color: white;
+}
+
+/*third position end*/
+
+/*fourth position start*/
+
+.four
+{
+	height: 550px ;
+	width: 100%;
+	background: url(https://preview.colorlib.com/theme/montana/img/video/xvideo.png.pagespeed.ic.0n1b-AC7zr.jpg);
+	background-size: 100% 100%;
+
+}
+.four .four01
+{
+	height: 550px;
+	width: 30%;
+	background: transparent;
+	margin: auto;
+}
+.four .four01 .sea
+{
+	height: 200px;
+	width: 100%;
+	background: transparent;
+	text-align: center;
+	line-height: 200px;
+	padding-top: 80px;
+	color: white;
+	
+	
+}
+.four .four01 .relax
+{
+	height: auto;
+	width: 100%;
+	background:transparent;
+ text-align: center;
+	font-size: 40px;
+	color: white;
+}
+.four .four01 .icon
+{
+	height: 250px;
+	width: 100%;
+	background: transparent;
+	padding-top: 10px;
+
+}
+.four .four01 .icon .icon01
+{
+	height:50px;
+	width: 50px;
+	background: white;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 50px;
+	margin: auto;
+	cursor: pointer;
+	color: blue;
+
+}
+
+/*fourth position end*/
+
+/*fifth position start*/
+
+.fifth
+{
+	height: auto;
+	width: 100%;
+	background: ;
+}
+.fifth .fifth1
+{
+	height: auto;
+	width: 90%;
+	background:;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+
+
+.fifth .fifth1 .image
+{
+	height: 500px;
+	width: 50%;
+	background: ;
+	display: flex;
+}
+
+.fifth .fifth1 .image .image1
+{
+ height: 400px;
+ width: 40%;
+ background:url(https://preview.colorlib.com/theme/montana/img/about/x1.png.pagespeed.ic.ytFzk1qg9A.webp);
+ margin-top: 50px;
+ margin-left: 50px;
+ background-size: 100% 100%;
+ 
+}
+
+.fifth .fifth1 .image .image2
+{
+ height: 400px;
+ width: 40%;
+ background:url(https://preview.colorlib.com/theme/montana/img/about/x2.png.pagespeed.ic.TMQb44M-no.webp);
+ margin-top: 90px;
+ margin-left: 20px;
+ background-size: 100% 100%;
+
+}
+.fifth .fifth1 .text
+{
+	height: 500px;
+	width: 50%;
+	background: ;
+}
+.fifth .fifth1 .text .about
+{
+  height: 100px;
+  width: 100%;
+  background: ;
+  padding-top: 60px;
+  color: blue;
+  font-size: 20px;
+}
+
+.fifth .fifth1 .text .nature
+{
+  height: 150px;
+  width: 100%;
+  background: ;
+  font-size: 60px;
+
+}
+
+.fifth .fifth1 .text .para
+{
+  height: 250px;
+  width: 100%;
+  background: ;
+  font-size: 25px;
+  color: gray;
+
+}
+/*fifth position end*/
+
+/*sixth position start*/
+
+.choose
+{
+	height: 100px;
+	width: 100%;
+	background: ;
+	text-align: center;
+	line-height: 100px;
+	font-size: 40px;
+	/*color: white;*/
+}
+
+/*sixth position end*/
+
+/*seven position start*/
+
+.seven
+{
+	height: auto;
+	width: 100%;
+	background: ;
+}
+.seven .seven01
+{
+	height: auto;
+	width: 100%;
+	background: ;
+	display: flex;
+	flex-wrap: wrap;
+}
+.seven .seven01 .image1
+{
+	height: 300px;
+	width: 50%;
+	background: ;
+	position: relative;
+	overflow: hidden;
+
+}
+.seven .seven01 .image1 img
+{
+	transition: 1s ease;
+}
+
+.seven .seven01 .image1:hover img
+{
+	transform: scale(1.3);
+}
+
+.seven .seven01 .image1 p
+{
+	position: absolute;
+	top: 70%;
+	left: 5%;
+	font-size: 20px;
+	color: white;
+}
+.seven .seven01 .image1 h1
+{
+	position: absolute;
+	top: 80%;
+	left: 5%;
+	font-size: 40px;
+	color: white;
+}
+.seven .seven01 .image1 h5
+{
+	position: absolute;
+	top: 80%;
+	right: 0%;
+	font-size: 30px;
+	color: white;
+}
+
+.seven .seven01 .image2
+{
+	height: 300px;
+	width: 50%;
+	background: ;
+	position: relative;
+	overflow: hidden;
+}
+.seven .seven01 .image2 img
+{
+	transition: 1s ease;
+}
+
+.seven .seven01 .image2:hover img
+{
+	transform: scale(1.3);
+}
+
+.seven .seven01 .image2 p
+{
+	position: absolute;
+	top: 70%;
+	left: 5%;
+	font-size: 20px;
+	color: white;
+}
+.seven .seven01 .image2 h1
+{
+	position: absolute;
+	top: 80%;
+	left: 5%;
+	font-size: 40px;
+	color: white;
+}
+.seven .seven01 .image2 h5
+{
+	position: absolute;
+	top: 80%;
+	right: 0%;
+	font-size: 30px;
+	color: white;
+}
+.seven .seven02
+{
+	height: auto;
+	width: 100%;
+	background:;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.seven .seven02 .image3
+{
+	height: 300px;
+	width: 50%;
+	background: ;
+	position: relative;
+	overflow: hidden;
+}
+.seven .seven02 .image3 img
+{
+	transition: 1s ease;
+}
+
+.seven .seven02 .image3:hover img
+{
+	transform: scale(1.3);
+}
+
+.seven .seven02 .image3 p
+{
+	position: absolute;
+	top: 70%;
+	left: 5%;
+	font-size: 20px;
+	color: white;
+}
+.seven .seven02 .image3 h1
+{
+	position: absolute;
+	top: 80%;
+	left: 5%;
+	font-size: 40px;
+	color: white;
+}
+.seven .seven02 .image3 h5
+{
+	position: absolute;
+	top: 80%;
+	right: 0%;
+	font-size: 30px;
+	color: white;
+}
+
+.seven .seven02 .image4
+{
+	height: 300px;
+	width: 50%;
+	background:;
+	position: relative;
+	overflow: hidden;
+}
+.seven .seven02 .image4 img
+{
+	transition: 1s ease;
+}
+
+.seven .seven02 .image4:hover img
+{
+	transform: scale(1.3);
+}
+
+.seven .seven02 .image4 p
+{
+	position: absolute;
+	top: 70%;
+	left: 5%;
+	font-size: 20px;
+	color: white;
+}
+.seven .seven02 .image4 h1
+{
+	position: absolute;
+	top: 80%;
+	left: 5%;
+	font-size: 40px;
+	color: white;
+}
+.seven .seven02 .image4 h5
+{
+	position: absolute;
+	top: 80%;
+	right: 0%;
+	font-size: 30px;
+	color: white;
+}
+/*seven position end*/
+
+/*eight position start*/
+
+.eight
+{
+	height: 400px;
+	width: 100%;
+	background:;
+}
+.eight .eight1
+{
+	height: 400px;
+	width: 80%;
+	background: ;
+	margin: auto;
+	padding-top: 80px;
+
+
+}
+.eight .eight1 .eight01
+{
+	height: auto;
+	width: 100%;
+	background: ;
+	display: flex;
+  flex-wrap: wrap;
+  border: 2px solid darkgray;
+}
+.eight .eight1 .eight01 .reservation
+{
+	height: 200px;
+	width: 60%;
+	background: ;
+	text-align: center;
+	line-height: 200px;
+	font-size: 30px;
+	font-weight: bold;
+}
+.eight .eight1 .eight01 .btn
+{
+	height: 200px;
+	width: 40%;
+	background: ;
+	text-align: center;
+	line-height: 200px;
+
+}
+.eight .eight1 .eight01 .btn button
+{
+	padding: 20px 80px;
+	border-radius: 15px;
+	border: none;
+	background: blue;
+	color: white;
+}
+.eight .eight1 .eight01 .btn button:hover
+{
+	background: white;
+	color: blue;
+	border: 1px solid blue;
+}
+
+
+
+
+/*eight position end*/
+
+/*nine position start*/
+
+.nine
+{
+	height: auto;
+	width: 100%;
+	background: ;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.nine .image01
+{
+	height: 300px;
+	width: 20%;
+	/*border: 2px solid;*/
+	position: relative;
+ overflow: hidden;
+}
+.nine .image01::before
+{
+	      content: "";
+    		position: absolute;
+    		height: 300px;
+    		width: 300px;
+    		background: navy;
+    		top: 0;
+    		left:-120%;
+    		opacity:0.2;
+}
+.nine .image01:hover::before
+{
+	      animation: utsav 1s ;
+    		transform: translateX(290px);
+}
+
+@keyframes utsav
+ {
+   from{transform: translateX(0px);}
+   to{transform: translateX(290px);}
+}
+
+    	/* nine position end */
+
+
+/*tenth position start*/
+
+.tenth
+{
+	height: auto;
+	width: 100%;
+	background: black;
+}
+
+.tenth .tenth01
+{
+	height: auto;
+	width: 80%;
+	background:;
+	margin: auto;
+}
+.tenth .tenth01 .footer
+{
+	height: auto;
+	width: 100%;
+	background: ;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.tenth .tenth01 .footer .part01
+{
+  height: 500px;
+  width: 25%;
+  background: ;
+}
+.tenth .tenth01 .footer .part01 .adress
+{
+	height: 100px;
+	width: 100%;
+	background: ;
+	line-height: 100px;
+	font-weight: bold;
+	font-size: 30px;
+	color: white;
+}
+
+.tenth .tenth01 .footer .part01 .green
+{
+	height: 100px;
+	width: 100%;
+	background: ;
+	font-size: 20px;
+	color: lightgray;
+}
+
+.tenth .tenth01 .footer .part01 .get
+{
+	height: 300px;
+	width: 100%;
+	background: ;
+	font-size: 20px;
+	text-decoration: underline;
+	color: lightgray;
+}
+.tenth .tenth01 .footer .part01 .get:hover
+{
+	color: blue;
+}
+
+
+.tenth .tenth01 .footer .part02
+{
+  height: 500px;
+  width: 25%;
+  background: ;
+}
+.tenth .tenth01 .footer .part02 .reservation
+{
+	height: 100px;
+	width: 100%;
+	background: ;
+	line-height: 100px;
+	font-weight: bold;
+	font-size: 30px;
+	color: white;
+
+}
+.tenth .tenth01 .footer .part02 .number
+{
+	height: 400px;
+	width: 100%;
+	background: ;
+	font-size: 20px;
+	color: lightgray;
+}
+
+.tenth .tenth01 .footer .part03
+{
+  height: 500px;
+  width: 20%;
+  background: ;
+}
+.tenth .tenth01 .footer .part03 .nav
+{
+	height: 100px;
+	width: 100%;
+	background:;
+	line-height: 100px;
+	font-weight: bold;
+	font-size: 30px;
+	color: white;
+
+}
+.tenth .tenth01 .footer .part03 .home
+{
+	height: 400px;
+	width: 100%;
+	background: ;
+}
+.tenth .tenth01 .footer .part03 .home ul
+{
+	padding: 0;
+	margin: 0;
+}
+.tenth .tenth01 .footer .part03 .home li
+{
+	list-style: none;
+	padding: 15px 0px;
+}
+.tenth .tenth01 .footer .part03 .home a
+{
+	text-decoration: none;
+	font-size: 20px;
+	color: lightgray;
+}
+
+.tenth .tenth01 .footer .part04
+{
+  height: 500px;
+  width: 30%;
+  background: ;
+}
+.tenth .tenth01 .footer .part04 .newletter
+{
+	height: 100px;
+	width: 100%;
+	background: ;
+	line-height: 100px;
+	font-weight: bold;
+	font-size: 30px;
+	color: white;
+}
+.tenth .tenth01 .footer .part04 .btn
+{
+	height: 100px;
+	width: 100%;
+	background: ;
+	text-align: center;
+	line-height: 100px;
+}
+.tenth .tenth01 .footer .part04 .btn button
+{
+	padding: 10px 60px;
+}
+
+.tenth .tenth01 .footer .part04 .sub
+{
+	height: 300px;
+	width: 100%;
+	background: ;
+	color: lightgray;
+	font-size: 20px;
+
+}
+.tenth .tenth01 .icon
+{
+	height: 100px;
+	width: 100%;
+	background:;
+	padding-top: 40px;
+	font-size: 20px;
+	color:lightgray;
+}
+

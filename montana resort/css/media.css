@@ -1,0 +1,210 @@
+@media(max-width: 1200px)
+{.third .third1 .part1 .btn button{padding: 5px 90px;}
+ .third .third1 .part2 .btn01 button{padding: 5px 90px;}
+ .third .third1 .part3 .btn02 button{padding: 5px 90px;}
+  
+ .main .nav .menu ul li a{font-size: 15px;}
+}
+
+
+@media(max-width: 1100px)
+{
+	.main .nav .menu{width: 50%;}
+	.main .nav .logo{width: 50%;}
+	.main .nav .icon{width: 50%;}
+	.main .nav .menu ul li a{font-size: 10px;}
+
+
+	.second .second1 .text .nature{font-size: 50px;}
+
+
+    .third .third1 .part1 .upto{font-size: 20px;}
+   .third .third1 .part1 .point{font-size: 15px;}
+
+   .third .third1 .part1 .btn button{padding: 5px 80px;}
+   
+   .third .third1 .part2 .upto01{font-size: 20px;}
+   .third .third1 .part2 .point01{font-size: 15px;}
+
+   .third .third1 .part2 .btn01 button{padding: 5px 80px;}
+
+
+   .third .third1 .part3 .upto02{font-size: 20px;}
+   .third .third1 .part3 .point02{font-size: 15px;}
+
+   .third .third1 .part3 .btn02 button{padding: 5px 80px;}
+
+   .fifth .fifth1 .text .nature{font-size: 50px;}
+  
+
+}
+
+
+@media(max-width: 900px)
+{
+	.main .nav .menu{width: 50%; display: none;}
+	.main .nav .logo{width: 50%;}
+	.main .nav .icon{width: 50%;}
+	
+    .second .second1 .text{width: 50%;}
+    .second .second1  .image{width: 50%;}
+   /* .second .box .box1 .text .nature{font-size: 15px;}*/
+
+   .third .third1 .part1 .upto{font-size: 20px;}
+   .third .third1 .part1 .point{font-size: 15px;}
+
+   .third .third1 .part1 .btn button{padding: 0px 50px;}
+   
+   .third .third1 .part2 .upto01{font-size: 20px;}
+   .third .third1 .part2 .point01{font-size: 15px;}
+
+   .third .third1 .part2 .btn01 button{padding: 0px 50px;}
+
+
+   .third .third1 .part3 .upto02{font-size: 20px;}
+   .third .third1 .part3 .point02{font-size: 15px;}
+
+   .third .third1 .part3 .btn02 button{padding: 0px 50px;}
+
+    .fifth .fifth1 .text{width: 50%;}
+    .fifth .fifth1  .image{width: 50%;}
+
+    .fifth .fifth1 .text .nature{font-size: 40px;}
+    .fifth .fifth1 .text .para{font-size: 22px;}
+
+   .seven .seven01 .image1 h1{font-size: 30px;}
+   .seven .seven01 .image2 h1{font-size: 30px;}
+   .seven .seven02 .image3 h1{font-size: 30px;}
+   .seven .seven02 .image4 h1{font-size: 30px;}
+
+
+   .seven .seven01 .image1 h5{font-size:25px;}
+   .seven .seven01 .image2 h5{font-size:25px;}
+   .seven .seven02 .image3 h5{font-size:25px;}
+   .seven .seven02 .image4 h5{font-size:25px;}
+
+
+
+    .nine .image01{width: 50%;}
+    
+
+     .tenth .tenth01 .footer .part01{width: 50%;}
+  .tenth .tenth01 .footer .part02{width: 50%;}
+  
+  .tenth .tenth01 .footer .part03{width: 50%;}
+  
+  .tenth .tenth01 .footer .part04{width: 50%;}
+  
+
+}
+
+
+
+@media(max-width: 700px)
+{
+	.main .nav .menu{display: none;}
+	.main .nav .logo{width: 40%;}
+	.main .nav .icon{width: 60%;}
+
+
+	.second .second1 .text{width: 100%;}
+    .second .second1 .image{width: 100%;}
+
+    .third .third1 .part1{width: 100%;}
+    .third .third1 .part2{width: 100%;}
+    .third .third1 .part3{width: 100%;}
+
+    .third .third1 .part1 .btn button{padding: 15px 210px;}
+     .third .third1 .part2 .btn01 button{padding: 15px 210px;}
+    .third .third1 .part3 .btn02 button{padding: 15px 210px;}
+
+
+     .fifth .fifth1 .text{width: 100%;}
+    .fifth .fifth1 .image{width: 100%;}
+    .fifth .fifth1 .text .nature{font-size: 50px;}
+
+
+    .seven .seven01 .image1{width: 100%;}
+    .seven .seven01 .image2{width: 100%;}
+ 
+    .seven .seven02 .image3{width: 100%;}
+    .seven .seven02 .image4{width: 100%;}
+
+      .eight .eight1 .eight01 .reservation{width: 100%;}
+    .eight .eight1 .eight01 .btn{width: 100%;}
+    .eight .eight1{padding-top: 0;}
+ 
+
+
+}
+
+
+
+
+
+@media(max-width: 500px)
+{
+	.main .nav .menu{display: none;}
+	.main .nav .logo{display: none;}
+	.main .nav .icon{display: none;}
+
+    .second .second1 .text{width: 100%;}
+    .second .second1 .image{width: 100%;}
+/*
+    .third .third1{width: 100%;}*/
+    .third .third1 .part1{width: 100%;}
+    .third .third1 .part2{width: 100%;}
+    .third .third1 .part3{width: 100%;}
+    .third .third1 .part1 .btn button{padding: 15px 150px;}
+     .third .third1 .part2 .btn01 button{padding: 15px 150px;}
+    .third .third1 .part3 .btn02 button{padding: 15px 150px;}
+ 
+    .fifth .fifth1 .text{width: 100%;}
+    .fifth .fifth1 .image{width: 100%;}
+    .fifth .fifth1 .text .nature{font-size: 50px;}
+
+     
+    .seven .seven01 .image1{width: 100%;}
+    .seven .seven01 .image2{width: 100%;}
+ 
+    .seven .seven02 .image3{width: 100%;}
+    .seven .seven02 .image4{width: 100%;}
+
+
+    .eight .eight1 .eight01 .reservation{width: 100%;}
+    .eight .eight1 .eight01 .btn{width: 100%;}
+    .eight .eight1{padding-top: 0;}
+
+
+  
+
+  
+
+
+  .nine .image01{width: 100%;}
+  .nine .image01:hover::before
+{
+   animation: utsav 1s linear 	 ;
+   transform: translateX(290px);
+}
+
+@keyframes utsav
+ {
+   from{transform: translateX(0px);}
+   to{transform: translateX(290px);}
+}
+
+
+
+  .tenth .tenth01 .footer .part01{width: 100%;}
+  .tenth .tenth01 .footer .part02{width: 100%;}
+  
+  .tenth .tenth01 .footer .part03{width: 100%;}
+  
+  .tenth .tenth01 .footer .part04{width: 100%;}
+  
+  
+
+
+
+}
