@@ -1,0 +1,23 @@
+@media(max-width: 900px)
+{
+	     .mapel .part2 .left_b{width:100%;}
+	     .mapel .part2 .right_b{display: none;}
+}
+
+
+@media(max-width: 700px)
+{
+	     .mapel .part2 .left_b{width:100%;}
+	     .mapel .part2 .right_b{display: none;}
+}
+
+
+
+
+@media(max-width: 500px)
+{
+	     .mapel .part2 .left_b{width:100%;}
+	     .mapel .part2 .right_b{display: none;}
+
+	     .content7 .content07 .form{width: 100%;}
+}

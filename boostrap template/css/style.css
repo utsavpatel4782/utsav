@@ -1,0 +1,935 @@
+	*{margin: 0;padding: 0;box-sizing: border-box;}
+
+  .header .info li
+		{
+			list-style: none;
+			display: inline;
+			margin-right: 20px;
+			/*border-right: 1px solid;*/
+
+		}
+		.header .info .num
+		{
+			border-right: 1px solid;
+	        padding-right: 10px; 
+		}
+
+		.header .info .fa-solid 
+		{
+			padding-right: 8px;
+		}
+        
+        .header .info .time
+		{
+	       border-right: 1px solid;
+	        padding-right: 10px; 
+		}
+        
+        .header .icon i
+        {
+        	float: right;
+        	margin-right: 20px;
+        }
+        .header .icon i:hover
+        {
+        	color: magenta;
+        }
+
+         /*header enf*/
+
+         /*naviagtion start*/
+
+         .nav .box .navi li
+         {
+         	display: inline;
+         	margin-right: 33px;
+         	font-size: 15px;
+
+         }
+          .nav .box .navi .home
+          {
+          	margin-left: 80px;
+          }
+         .nav .box .navi a
+         {
+         	color: black;
+         	/*font-weight: bold;*/
+         	text-decoration: none;
+         	text-align: center;
+         	line-height: 150px;
+         	
+
+         }
+         .nav .box .navi a:hover
+         {
+         	color:yellow;
+         }
+         .nav .box .icon1 li
+         {
+           display: inline;
+           margin-right:20px;
+           font-size: 15px;
+
+         } 
+         .nav .box .icon1 a
+         {
+         	color: black;
+         	text-decoration: none;
+         	text-align: center;
+         	line-height: 150px;
+         }
+         .nav .box .icon1 a:hover
+         {
+         	color: yellow;
+         }
+         .nav .box .icon1 .fa-solid 
+         {
+           margin-right: 10px;
+         }
+     /*navigation end*/
+
+     /*content start*/
+
+     .content h3,p
+     {
+     	text-align: center;
+     }
+      
+     /*content end*/
+
+     /*slider2 start*/
+      
+       .slider2 .slider02 .text p
+       {
+        text-align: center;
+        line-height: 40px;
+        font-size: 20px;
+       }
+       .slider2 .slider02 .text h1
+       {
+        float: right;
+        margin-top: 20px;
+       }
+       .slider2 .slider02 .text h5
+       {
+        padding-left: 70%;
+        
+       }
+
+     /*slider2 end*/
+
+     /*content2 start*/
+      .content2 h1
+      {
+          text-align: center;
+          padding-top: 50px;
+      }
+      .content02 .icon01 .round
+      {
+        height: 150px;
+        width: 150px;
+        border-radius:50%;
+        margin: auto;
+        text-align: center;
+        line-height: 150px;
+        border: 2PX solid;
+      }
+      .content02 .icon01 .round i
+      {
+        font-size: 50px;
+      }
+      .content02 .icon01 H4
+      {
+        text-align: center;
+        margin-top: 10PX;
+      }
+      .content02 .icon01 P
+      {
+        text-align: center;
+        margin-top: 10PX;
+      }
+
+      .content02 .icon02 .round
+      {
+        height: 150px;
+        width: 150px;
+        border-radius:50%;
+        margin: auto;
+        text-align: center;
+        line-height: 150px;
+          border: 2PX solid;
+      }
+      .content02 .icon02 .round i
+      {
+        font-size: 50px;
+      }
+      .content02 .icon02 H4
+      {
+        text-align: center;
+        margin-top: 10PX;
+      }
+      .content02 .icon02 P
+      {
+        text-align: center;
+        margin-top: 10PX;
+      }
+
+       .content02 .icon03 .round
+      {
+        height: 150px;
+        width: 150px;
+        border-radius:50%;
+        margin: auto;
+        text-align: center;
+        line-height: 150px;
+          border: 2PX solid;
+      }
+      .content02 .icon03 .round i
+      {
+        font-size: 50px;
+      }
+      .content02 .icon03 H4
+      {
+        text-align: center;
+        margin-top: 10PX;
+
+      }
+      .content02 .icon03 P
+      {
+        text-align: center;
+        margin-top: 10PX;
+      }
+
+       .content02 .icon04 .round
+      {
+        height: 150px;
+        width: 150px;
+        border-radius:50%;
+        margin: auto;
+        text-align: center;
+        line-height: 150px;
+          border: 2PX solid;
+      }
+      .content02 .icon04 .round i
+      {
+        font-size: 50px;
+      }
+      .content02 .icon04 H4
+      {
+        text-align: center;
+        margin-top: 10PX;
+      }
+      .content02 .icon04 P
+      {
+        text-align: center;
+        margin-top: 10PX;
+      }
+     /*content2 end*/
+     
+     /*image fixed start*/
+
+     .img
+     {
+      height: 500px;
+      width: 100%;
+      background: url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/12/img-11.jpg?id=1828);
+      background-size: 100% 100%;
+      background-attachment: fixed;
+     }
+      .img h1
+      {
+        text-align: center;
+       padding-top: 50px;
+       color: brown;
+      }
+      .img h4
+      {
+        text-align: center;
+        font-weight: normal;
+      }
+     /*image fixed end*/
+
+     /*content3 start*/
+      .content3 h1
+      {
+        text-align: center;
+        padding-top: 150px;
+      }
+
+      .mapel .part1 .img1
+      {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        margin-left: 80px;
+        margin-top: 20px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+      }
+      .mapel .part1 .img1 .img01
+      {
+        height: 190px;
+        width: 190px;
+        background:url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/11/muffin-3.jpg);
+        background-size: 100% 100%;
+        border-radius: 50%;
+
+
+      }
+        .mapel .part1 .img2
+      {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        margin-left: 80px;
+        margin-top: 20px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+      }
+      .mapel .part1 .img2 .img02
+      {
+        height: 190px;
+        width: 190px;
+        background:url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/11/bread-3.jpg);
+        background-size: 100% 100%;
+        border-radius: 50%;
+       }
+         .mapel .part1 .img3
+      {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        margin-left: 80px;
+        margin-top: 20px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+      }
+      .mapel .part1 .img3 .img03
+      {
+        height: 190px;
+        width: 190px;
+        background:url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/11/danish-1.jpg);
+        background-size: 100% 100%;
+        border-radius: 50%;
+       }
+       .mapel .part2
+       {
+        height: auto;
+        
+        display: flex;
+        flex-wrap: wrap;
+
+
+       }
+           .mapel .part2 .left_b{
+
+        width:50%;
+        background:;
+       }
+      .mapel .part2 .left_b h3
+       {
+        margin-top: 50px;
+       }
+       .mapel .part2 .left_b p
+       {
+        color: lightgrey;
+        margin-top: 10px;
+       }
+       .mapel .part2 .left_b h1
+       {
+        margin-top: -80px;
+        margin-left: -190px;
+       }
+       .mapel .part2 .left_b .btn
+       {
+        float: right;
+        margin-top: -60px;
+       }
+
+       .mapel .part2 .left_b .btn button
+       {
+        padding: 10px 20px;
+        border: none;
+        font-size: 20px;
+        text-align: center;
+       }
+       .mapel .part2 .right_b{
+
+        width: 50%;
+        background:url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/11/muffin-3-600x600.jpg);
+        background-size: 100% 100%;
+       }
+       
+
+     /*content3 end*/
+
+
+     /*content4 start*/
+     .content4 .content04 .part1
+     {
+      height: 600px;
+      background: url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/09/m-bakery-mobile.png);
+      background-size: 100% 100%;
+     }
+
+     .content4 .content04 .part2 .icon1
+     {
+      height: 200px;
+      width: 100%;
+      background: ;
+      display: flex;
+     }
+      .content4 .content04 .part2 .icon1 .icon01
+      {
+        height: 200px;
+        width: 30%;
+        background: ;
+
+      }
+      .content4 .content04 .part2 .icon1 .icon01 .icon001
+      {height: 100px;
+        width: 100px;
+        background: ;
+        border-radius: 50%;
+        border: 2px solid black;
+        margin-top: 20px;
+        text-align: center;
+        line-height: 100px;
+
+      }
+
+      .content4 .content04 .part2 .icon1 .icon01 .icon001 i
+      {
+        font-size: 40px;
+      }
+      .content4 .content04 .part2 .icon1 .text-1
+      {
+        height: 200px;
+        width: 70%;
+        background: ;
+      }
+      .content4 .content04 .part2 .icon1 .text-1 h4
+      {
+        margin-top: 30px;
+        margin-left: 20px;
+      }
+      .content4 .content04 .part2 .icon2
+     {
+      height: 200px;
+      width: 100%;
+      background: ;
+      display: flex;
+     }
+
+     .content4 .content04 .part2 .icon2 .icon01
+      {
+        height: 200px;
+        width: 30%;
+        background: ;
+
+      }
+      .content4 .content04 .part2 .icon2 .icon01 .icon001
+      {height: 100px;
+        width: 100px;
+        background: ;
+        border-radius: 50%;
+        border: 2px solid black;
+        margin-top: 20px;
+        text-align: center;
+        line-height: 100px;
+
+      }
+
+      .content4 .content04 .part2 .icon2 .icon01 .icon001 i
+      {
+        font-size: 40px;
+      }
+      .content4 .content04 .part2 .icon2 .text-1
+      {
+        height: 200px;
+        width: 70%;
+        background: ;
+      }
+      .content4 .content04 .part2 .icon2 .text-1 h4
+      {
+        margin-top: 30px;
+        margin-left: 20px;
+      }
+
+      .content4 .content04 .part2 .icon3
+     {
+      height: 200px;
+      width: 100%;
+      background:;
+      display: flex;
+     }
+    
+    .content4 .content04 .part2 .icon3 .icon01
+      {
+        height: 200px;
+        width: 30%;
+        background:;
+
+      }
+      .content4 .content04 .part2 .icon3 .icon01 .icon001
+      {height: 100px;
+        width: 100px;
+        background: ;
+        border-radius: 50%;
+        border: 2px solid black;
+        margin-top: 20px;
+        text-align: center;
+        line-height: 100px;
+
+
+      }
+
+      .content4 .content04 .part2 .icon3 .icon01 .icon001 i
+      {
+        font-size: 30px;
+      }
+      .content4 .content04 .part2 .icon3 .text-1
+      {
+        height: 200px;
+        width: 70%;
+        background: ;
+      }
+      .content4 .content04 .part2 .icon3 .text-1 h4
+      {
+        margin-top: 30px;
+        margin-left: 20px;
+      }
+
+    
+     /*content4 end*/
+
+      /*content5 start*/
+        .content5 h3
+        {
+          text-align: center;
+          padding-top: 50px;
+        }
+        .content5 p
+        {
+          text-align: center;
+          padding-top: 8px;
+          font-size: 20px;
+        }
+         .content5 .img-1 .img-01
+         {
+          height: 400px;
+          width: 100%;
+          background: ;
+          border: 2px solid;
+
+         
+         }
+        .content5 .img-1 .img-01 .img-001
+        {
+          height: 350px;
+          width: 90%;
+          background:url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/09/m-personnel-1.png);
+          background-size: 100% 100%;
+          margin: auto;
+          margin-top: -20px;
+          
+
+        }
+        
+        .content5 .img-1 .img-01  .name1
+        {
+          height: 50px;
+          width: 100%;
+          background:;
+          justify-content: center;
+          align-items: center;
+          display: flex;
+         
+        }
+
+         .content5 .img-2 .img-02
+         {
+          height: 400px;
+          width: 100%;
+          background: ;
+          border: 2px solid;
+
+         
+         }
+        .content5 .img-2 .img-02 .img-002
+        {
+          height: 350px;
+          width: 90%;
+          background:url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/09/m-personnel-2.png);
+          background-size: 100% 100%;
+          margin: auto;
+          margin-top: -20px;
+          
+
+        }
+        
+        .content5 .img-2 .img-02  .name2
+        {
+          height: 50px;
+          width: 100%;
+          background: ;
+          justify-content: center;
+          align-items: center;
+          display: flex;
+          
+        }
+
+
+        .content5 .img-3 .img-03
+         {
+          height: 400px;
+          width: 100%;
+          background:;
+          border: 2px solid;
+
+         
+         }
+        .content5 .img-3 .img-03 .img-003
+        {
+          height: 350px;
+          width: 90%;
+          background:url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/09/m-personnel-3.png);
+          background-size: 100% 100%;
+          margin: auto;
+          margin-top: -20px;
+          
+
+        }
+        
+        .content5 .img-3 .img-03  .name3
+        {
+          height: 50px;
+          width: 100%;
+          background:;
+          justify-content: center;
+          align-items: center;
+          display: flex;
+          
+        }
+
+
+        .content5 .img-4 .img-04
+         {
+          height: 400px;
+          width: 100%;
+          background: ;
+          border: 2px solid;
+
+         
+         }
+        .content5 .img-4 .img-04 .img-004
+        {
+          height: 350px;
+          width: 90%;
+          background:url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/09/m-personnel-4.png);
+          background-size: 100% 100%;
+          margin: auto;
+          margin-top: -20px;
+          
+
+        }
+        
+        .content5 .img-4 .img-04  .name4
+        {
+          height: 50px;
+          width: 100%;
+          background:;
+          justify-content: center;
+          align-items: center;
+          display: flex;
+          
+        }
+       /*content5 end*/
+
+       /*content6 start*/
+        .content6 h3
+        {
+          text-align: center;
+          padding-top: 20px;
+        }
+         .content6 p
+        {
+          text-align: center;
+          padding-top: 15px;
+        }
+        .content6 .content06 .img1
+        {
+          height: 550px;
+          width: 100%;
+          background: ;
+        }
+        .content6 .content06 .img1 .img11
+        {
+          height: 300px;
+          width: 100%;
+          background:url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/12/img-6-800x600.jpg);
+          background-size: 100% 100%;
+          border: 2px solid lightcyan;
+          
+        }
+
+        .content6 .content06 .img1 .text-1
+        {
+          height: 250px;
+          width: 100%;
+          background: ;
+        }
+        .content6 .content06 .img1 .text-1 .date
+        {
+          float: left;
+          margin-left: 30px;
+         
+        }
+
+        .content6 .content06 .img2
+        {
+          height: 550px;
+          width: 100%;
+          background: ;
+        }
+        .content6 .content06 .img2 .img22
+        {
+          height: 300px;
+          width: 100%;
+          background:url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/12/img-9-800x600.jpg);
+          background-size: 100% 100%;
+          border: 2px solid lightcyan;
+          
+        }
+
+        .content6 .content06 .img2 .text-2
+        {
+          height: 250px;
+          width: 100%;
+          background: ;
+        }
+        .content6 .content06 .img2 .text-2 .date
+        {
+          float: left;
+          margin-left: 30px;
+         
+        }
+
+         .content6 .content06 .img3
+        {
+          height: 550px;
+          width: 100%;
+          background: ;
+        }
+        .content6 .content06 .img3 .img33
+        {
+          height: 300px;
+          width: 100%;
+          background:url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/12/img-7-800x600.jpg);
+          background-size: 100% 100%;
+          border: 2px solid lightcyan;
+          
+        }
+
+        .content6 .content06 .img3 .text-3
+        {
+          height: 250px;
+          width: 100%;
+          background: ;
+        }
+        .content6 .content06 .img3 .text-3 .date
+        {
+          float: left;
+          margin-left: 30px;
+         
+        }
+        /*content6 end*/
+       
+
+        /*content7 start*/
+
+        .content7 .content07
+        {
+          height: 500px;
+          
+        }
+        .content7 .content07 .form
+        {
+          height: 500px;
+          width: 30%;
+          background:#A04000;
+        }
+        .content7 .content07 .form h3
+        {
+          text-align: center;
+          padding-top: 30px;
+        }
+        /*content7 end*/
+       
+       /*content8 start*/
+       .content8 .content08 .text-1 h3
+       {
+        padding-top: 30px;
+        padding-left: 20px;
+       }
+
+       .content8 .content08 .btn-1 h3 
+       {
+        padding-top: 30px;
+        /*padding-left: 20px;*/
+       }
+       .content8 .content08 .btn-1 button
+       {
+        padding: 10px 50px;
+        margin-top: 20px;
+        background: black;
+        color: wheat;
+       }
+
+       /*content8 end*/
+
+       /*content9 start*/
+       .content9
+       {
+        background: black;
+       }
+        .content9 .content09 .text-1 h3
+        {
+          padding-top: 30px;
+          color: white;
+        }
+
+         .content9 .content09 .text-1 i
+         {
+          font-size: 30px;
+          margin-right: 20px;
+          margin-top: 10px;
+          color: white;
+         }
+         .content9 .content09 .text-2 h3
+         {
+           padding-top: 30px;
+           color: white;
+         }
+
+         .content9 .content09 .text-2 .gallery
+         {
+            height: 200px;
+          width: 100%;
+          background: yellow;
+          margin-top: 40px;
+         }
+
+         .content9 .content09 .text-2 .gallery .top
+         {
+          height: 100px;
+          width: 100%;
+          background: indianred;
+          display: flex;
+         }
+
+         .content9 .content09 .text-2 .gallery .top .photo-1
+         {
+          height: 100px;
+          width: 33.33%;
+          background:url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/12/img-1-150x150.jpg);
+          background-size: 100% 100%;
+         }
+
+          .content9 .content09 .text-2 .gallery .top .photo-2
+         {
+          height: 100px;
+          width: 33.33%;
+          background:url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/12/img-4-150x150.jpg);
+          background-size: 100% 100%;
+          margin-left: 10px;
+         }
+          .content9 .content09 .text-2 .gallery .top .photo-3
+         {
+          height: 100px;
+          width: 33.33%;
+          background:url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/12/img-3-150x150.jpg);
+          background-size: 100% 100%;
+          margin-left: 10px;
+         }
+         .content9 .content09 .text-2 .gallery .bottom
+         {
+          height: 100px;
+          width: 100%;
+          background:antiquewhite;
+          display: flex;
+         }
+         .content9 .content09 .text-2 .gallery .bottom .photo-4
+         {
+          height: 100px;
+          width: 33.33%;
+          background:url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/12/img-13-150x150.jpg);
+          background-size: 100% 100%;
+
+         }
+         .content9 .content09 .text-2 .gallery .bottom .photo-5
+         {
+          height: 100px;
+          width:33.33%;
+          background: url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/12/img-15-150x150.jpg);
+          background-size: 100% 100%;
+          margin-left: 10px;
+         }
+
+         .content9 .content09 .text-2 .gallery .bottom .photo-6
+         {
+          height: 100px;
+          width:33.33%;
+          background:url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/12/img-16-150x150.jpg);
+          background-size:100% 100%;
+          
+          margin-left: 10px;
+         }
+         
+         .content9 .content09 .text-3 h3
+        {
+          padding-top: 30px;
+          color: white;
+        }
+        
+
+        
+        .content9 .content09 .text-4 h3
+        {
+          padding-top: 30px;
+          color: white;
+        }
+
+        .content9 .content09 .text-4 .num
+        {
+          margin-left: -80px;
+          color: white;
+        }
+        .content9 .content09 .text-4 i
+        {
+          margin-left: -30px;
+          color: white;
+        }
+
+        .content9 .content09 .text-4 .addre
+        {
+          margin-left: 30px;
+          color: white;
+        }
+        
+        .content9 .content09 .text-4 .email
+        {
+          margin-left: -30px;
+          color: white;
+        }
+        .content9 .content09 .text-4 .web
+        {
+          margin-left: -30px;
+          color: white;
+        } 
+       
+
+       /*content9 end*/
