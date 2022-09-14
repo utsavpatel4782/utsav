@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+    <style type="text/css">
+    	 div
+        {
+            position: relative;
+
+        }
+
+        div .circle1
+        {
+            position: absolute;
+            bottom: 2%;
+            left: 30%;
+            border-radius: 50%;
+        }
+
+         div .circle2
+        {
+            position: absolute;
+            bottom: 2%;
+            left: 32%;
+            border-radius: 50%;
+        }
+
+
+         div .circle3
+        {
+            position: absolute;
+            bottom: 2%;
+            left: 34%;
+            border-radius: 50%;
+        }
+
+         div .circle4
+        {
+            position: absolute;
+            bottom: 2%;
+            left: 36%;
+            border-radius: 50%;
+        }
+
+
+        div .circle5
+        {
+            position: absolute;
+            bottom: 2%;
+            left: 38%;
+            border-radius: 50%;
+        }
+
+         h1
+        {
+        	position: absolute;
+        	left: 10%;
+        	top: 0;
+        	color: red;
+        }
+
+
+
+
+
+    </style>
+
+</head>
+<body>
+
+<div>
+	 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRffDKwqzJwVFgmoG-qhcHU2afAAYMNIX8jyw&usqp=CAU" height="600px; width:600px;" id="im">
+	 <h1 id="num">1/5</h1>
+
+	<button onclick="image1()" class="circle1">o</button>
+    <button onclick="image2()" class="circle2">o</button>
+    <button onclick="image3()" class="circle3">o</button>
+    <button onclick="image4()" class="circle4">o</button>
+    <button onclick="image5()" class="circle5">o</button>
+
+
+
+</div>
+
+
+  <script type="text/javascript">
+  	
+   function image1()
+   {
+       var image =document.getElementById('im');
+       image.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRffDKwqzJwVFgmoG-qhcHU2afAAYMNIX8jyw&usqp=CAU";
+
+       image.style.border="5px solid red";
+
+
+        var h1 =document.getElementById('num');
+       	h1.innerHTML="1/5"
+
+   }
+
+   function image2()
+   {
+       var image =document.getElementById('im');
+       image.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0bSHHMU9dL34m-DA85zylumDRnHrV1L3V1g&usqp=CAU";
+
+        image.style.border="5px solid gray";
+       var h1 =document.getElementById('num');
+        h1.innerHTML="2/5"
+ 
+   }
+
+
+function image3()
+   {
+       var image =document.getElementById('im');
+       image.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6CXYcWHLqwgv9qzOfgh41SvIS5fXldCTdAQ&usqp=CAU";
+
+        image.style.border="5px solid cyan";
+       var h1 =document.getElementById('num');
+        h1.innerHTML="3/5"
+
+
+   }
+
+
+function image4()
+   {
+       var image =document.getElementById('im');
+       image.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBWGktEydbSDVVf6sqLw9A43KzsS0XGpwm3Q&usqp=CAU";
+        image.style.border="5px solid blue";
+
+       var h1 =document.getElementById('num');
+        h1.innerHTML="4/5"
+ 
+
+   }
+
+
+function image5()
+   {
+       var image =document.getElementById('im');
+       image.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa0eWJGbViNfI4GXePGhs0s7wULwV7BxhW_Q&usqp=CAU";
+        image.style.border="5px solid navy"; 
+
+       var h1 =document.getElementById('num');
+        h1.innerHTML="5/5"
+
+   }
+
+
+
+
+
+  </script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
