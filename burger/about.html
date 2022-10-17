@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>about.html</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css\style.css">
+    <link rel="stylesheet" type="text/css" href="js\project.js">
+</head>
+<body>
+
+
+	 <!-- HEADER START -->
+ <div class="header container-fluid  row">
+
+ 	<div class="header1 col-xl-3 "><h1>feane</h1></div>
+ 	<div class="header2 col-xl-6 ">
+ 		<ul>
+ 			<li><a href="index.html"><span>HOME</span></a></li>
+ 			<li><a href="menu.html">MENU</a></li>
+ 			<li><a href="about.html">ABOUT</a></li>
+ 			<li><a href="booktable.html">BOOKTABLE</a></li>
+ 		</ul>
+ 	</div>
+ 	<div class="header3 col-xl-3">
+      <i class="fa fa-user" aria-hidden="true"></i>
+      <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+      <i class="fa fa-search" aria-hidden="true"></i>
+      <button>Order Now</button>  
+    </div>
+
+    <div class="header_text  " >
+        <h1>Fast Food Restaurant</h1>
+        <p>Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad<br> mollitia laborum quam quisquam esse error unde. Tempora ex doloremque,<br> labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.</p>
+
+        <button>Order NOw</button>
+    </div>
+
+    <div class="header_text  " >
+        <h1>Fast Food Restaurant</h1>
+        <p>Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad<br> mollitia laborum quam quisquam esse error unde. Tempora ex doloremque,<br> labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.</p>
+
+        <button>Order NOw</button>
+    </div>
+
+    <div class="header_text  " >
+        <h1>Fast Food Restaurant</h1>
+        <p>Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad<br> mollitia laborum quam quisquam esse error unde. Tempora ex doloremque,<br> labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.</p>
+
+        <button>Order NOw</button>
+    </div>
+
+ </div>
+ <!-- header end -->
+
+
+  <!-- image start -->
+     <div class="im_g container-fluid" style=" background: #2E4053;">
+         <div class="im_g1  row" style="width: 90%; margin:auto;">
+             <div class="im_g11  col-xl-6">
+                 <img src="https://technext.github.io/feane/images/about-img.png" height="100% 100%" width="100% 100%">
+             </div>
+              <div class="im_g12  col-xl-6">
+                  <h1>We Are Feane</h1>
+                  <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All</p>
+                  <button>Order Now</button>
+              </div>
+         </div>
+     </div>  
+  <!-- image end -->
+
+
+
+  <!-- footer start -->
+   <div class="fot container-fluid " style="background:#2E4053 ;">
+       <div class="fot_1  row" style="width: 90%; margin:auto; padding-top: 40px;">
+           <div class="fot_10  col-xl-4">
+               <h4>Contact Us</h4>
+               <p><i class="fa fa-map-marker" aria-hidden="true"></i> Location</p>
+               <b> <i class="fa fa-phone" aria-hidden="true"></i>  call +91 9724730540</b>
+               <p>  <i class="fa fa-envelope" aria-hidden="true"></i>  demo8585@gmail.com</p>
+           </div>
+            <div class="fot_20  col-xl-4">
+                <h4>feane</h4>
+                <p>Necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with</p>
+                <div class="icon"> <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                <i class="fa fa-google-plus-square" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i></div>
+            </div>
+             <div class="fot_30  col-xl-4">
+                 <h4>Opening Hours</h4>
+                 <p>Everyday</p>
+                 <b>10.00 Am -10.00 Pm</b>
+
+             </div>
+             <div class="text ">
+                 <h3>© 2022 All Rights Reserved By Free Html Templates</h3>
+                 <h4>© Distributed By ThemeWagon</h4>
+             </div>
+       </div>
+   </div>
+  <!-- footer end -->
+
+
+
+
+
+  <script type="text/javascript">
+     index=0
+        
+          function slider() 
+          {
+            var image_arr =document.getElementsByClassName('header_text');
+
+            for ( i = 0;i<image_arr.length; i++) {
+              image_arr[i].style.display="none";
+            }
+
+                image_arr[index].style.display="block";
+                image_arr[index].classList.add('header_text');
+                index++;
+
+                if (index==3) {
+
+                 index=0;
+                  }
+
+                  setTimeout("slider() ",1000);
+
+
+          }
+          slider()              
+ </script>
+
+
+</body>
+</html>
